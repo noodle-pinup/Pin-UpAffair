@@ -1,2 +1,2 @@
 # PinupAffair
-Official Pinup Affair website
+Official Pin-Up Affair website
