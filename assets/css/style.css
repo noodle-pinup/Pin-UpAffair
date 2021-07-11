@@ -1,0 +1,148 @@
+/* ------------------------ ALL PAGES ----------------------- */
+/* Resetting font for entire page */
+* {
+    font-family: 'Inconsolata', monospace; 
+    color: #ffffff;
+}
+
+/* logo fonts */
+.pinup {
+    font-family: 'Encode Sans SC', sans-serif;
+    color: #ffcc33;
+}
+.affair {
+    font-family: 'Dancing Script', cursive;
+    color: #ff9933;
+}
+.orange {
+    color: #ff9933;
+}
+/* header font */
+h3 {
+    font-family: 'Encode Sans SC', sans-serif;
+    color: #ffcc33;
+}
+
+/* background image */
+body {
+    background-image: url('../images/pinupbackground.png'); 
+    background-size: 30%;
+    background-repeat: repeat;
+    background-position:center;
+    background-color: #9933cc;
+}
+.navbar-toggler {
+    color: #ffcc33 !important;
+}
+
+/* navbar attributes for all pages*/
+.navbar {
+    border-bottom: 1px solid #ff9933;
+}
+.bg-dark {
+    background-color: #000000 !important;
+}
+.small-kiss-gif {
+    width: 30px; 
+    margin: 0px 5px 10px 0px; 
+    float: left;
+}
+
+/* navlink styling */
+.nav-link {
+    color: #ffcc33 !important; 
+}
+.nav-link:hover {
+    color: #ffcc33 !important; 
+    font-size: 110%;
+}
+/* navlink icon styling */
+.fas {
+    color: #ff9933 !important; 
+}
+
+/* main content box attributes for all pages */
+.main-div-margin {
+    margin: 80px 0px 100px 0px;
+}
+.main-content-box {
+    padding: 20px; 
+    background-color: #000000; 
+    box-shadow: 10px 10px #00000090;  
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+li {
+    list-style-type: none;
+}
+.presale-link {
+    color: #ff9933 !important; 
+}
+.presale-link:hover {
+    color:#9933cc !important; 
+    font-size: 110% !important;
+}
+
+/* footer attributes */
+footer {
+    color: #ffffff; 
+    background-color: #111116; 
+    position: fixed;
+    bottom: 0; 
+    width: 100%; 
+    text-align: center; 
+    border-top: 1px solid #ff9933;
+}
+.footer-icons {
+    color: #ffcc33 ; 
+    font-size: 25px;
+    margin: 5px 3px 0px 3px; 
+}
+
+/* ----------------------- MAIN PAGE ---------------------- */
+/* kiss gif */
+.flyer {
+    width: 200px; 
+    margin: 0px 20px 10px 0px; 
+    border: 5px solid #ff9933;
+    float: left;
+}
+.flyer-large {
+    width: 420px; 
+    margin: 20px;
+    border: 5px solid #ff9933;
+    justify-content:center;
+}
+#flyer-modal {
+    background-color: #7719a72f;
+}
+.modal-content {
+    border: 5px dotted #ff9933;
+    background-color: #000000 !important;
+}
+
+/* ----------------------- PORTFOLIO PAGE --------------------- */
+/* portfolio photos*/
+.portfolio-col {
+    text-align: center;
+}
+.portfolio-photos {
+    width: 240px; 
+    border: 1px solid #000000; 
+    margin: 20px 20px 20px 20px;
+    display:inline-block;
+}
+.portfolio-photos:hover {
+    opacity: 50%;
+} 
+.portfolio-col {
+    margin: 0px 5px 0px 0px ;
+}
+
+/* modal */
+.modal-header {
+    border-bottom: none !important;
+}
+.modal-content {
+    background-color: #212529 !important; 
+}  
