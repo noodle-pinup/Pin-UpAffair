@@ -136,4 +136,14 @@ footer {
     width: 400px;
 }
 
+/* ----------------------- PHOTOS PAGE --------------------- */
+.photo {
+    width: 240px; 
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+    border: 2px dotted #9933cc;
+    /* margin-left: auto;
+    margin-right: auto;
+    display:inline-block; */
+}
 
