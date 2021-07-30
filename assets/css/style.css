@@ -120,32 +120,51 @@ footer {
     border: 5px solid #ff9933;
     float: left;
 }
-.flyer-large {
-    width: 420px; 
-    margin: 0 auto;
-    border: 5px solid #ff9933;
-    justify-content:center;
-}
-#flyer-modal {
-    background-color: #7719a72f;
-}
-.modal-content {
-    border: 5px dotted #ff9933;
-    background-color: #000000 !important;
-}
-
-/* modal */
-.modal-header {
-    border-bottom: none !important;
-}
-
 .dj-photo {
     margin: 10px auto;
     width: 100px;
     height: auto;
     border-radius: 50%;
     border: 1px solid #ff9933;
+}
 
+/* modal */
+#flyer-modal {
+    background-color: #7719a72f;
+    padding: 20px;
+}
+#flyer-modal-back {
+    background-color: #7719a72f;
+    padding: 20px;
+}
+.flyer-large {
+    width: 100%; 
+    margin: 0 auto;
+    border: 5px solid #ff9933;
+    justify-content:center;
+    object-fit: cover;
+}
+.modal-header {
+    border-bottom: none !important;
+}.modal-content {
+    border: 5px dotted #ff9933;
+    background-color: #000000 !important;
+    padding: 20px;
+}
+
+/* modal close button */
+.close {
+    color: #ffcc33 !important; 
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.close:hover {
+    color: #ffcc33 !important; 
+    font-size: 110%;
+}
+.far {
+    color: #ffcc33 !important; 
 }
 
 /* ----------------------- VIDEOS PAGE --------------------- */
