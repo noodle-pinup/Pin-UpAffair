@@ -141,8 +141,8 @@ footer {
     width: 100%; 
     margin: 0 auto;
     border: 5px solid #ff9933;
-    justify-content:center;
-    object-fit: cover;
+    /* justify-content:center; */
+    float: none;
 }
 .modal-header {
     border-bottom: none !important;
@@ -151,21 +151,6 @@ footer {
     background-color: #000000 !important;
     padding: 20px;
 }
-
-/* modal close button
-.close {
-    color: #ffcc33 !important; 
-    position: absolute;
-    top: 10px;
-    right: 10px;
-}
-.close:hover {
-    color: #ffcc33 !important; 
-    font-size: 110%;
-}
-.far {
-    color: #ffcc33 !important; 
-} */
 
 /* ----------------------- VIDEOS PAGE --------------------- */
 
